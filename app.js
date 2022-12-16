@@ -13,7 +13,7 @@ const server = http.createServer((req, res) => {
         '2022-04',
         '2022-12'
   ];
-  const yesorno = oopsies.includes(now) ? "Yes." : "No 👍"
+  const yesorno = oopsies.includes(now) ? "Yes. Yes he did." : "No 👍"
 
   res.end(`<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><style>h1{padding: 1em;position: absolute;top: 50%;left: 50%; margin-right: -50%; transform: translate(-50%, -50%); }</style><body><h1>${yesorno}</h1>`);
 });
