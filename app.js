@@ -13,7 +13,7 @@ const server = http.createServer((req, res) => {
         '2022-04',
         '2022-12'
   ];
-  const yesorno = oopsies.includes(now) ? "Yes. Yes he did." : "No 👍"
+  const yesorno = oopsies.includes(now) ? "Yes. Yes he did." : "No, not yet."
 
   res.end(`
     <title>didjakespilladrinkonhismacbookthismonth.com</title>
