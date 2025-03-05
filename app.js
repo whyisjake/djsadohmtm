@@ -11,7 +11,8 @@ const server = http.createServer((req, res) => {
   const now     = `${date.getUTCFullYear()}-${date.getUTCMonth() + 1}`;
   const oopsies = [
         '2022-04',
-        '2022-12'
+        '2022-12',
+        '2025-03',
   ];
   const yesorno = oopsies.includes(now) ? "Yes. Yes he did." : "No, not yet."
 
